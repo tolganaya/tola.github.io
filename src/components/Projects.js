@@ -110,7 +110,7 @@ export const Projects = () => {
       title: "Suitcase",
       description: "на будущий отпуск",
       imgUrl: projImg15,
-      siteUrl: 'https://www.instagram.com/p/CSSTpG5r63H/?igshid=YmMyMTA2M2Y=',
+      siteUrl: 'https://www.instagram.com/p/CVzUd3zK5if/?igshid=YmMyMTA2M2Y=',
     }, 
   ];
 
