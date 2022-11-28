@@ -17,7 +17,7 @@ export const Footer = () => {
             <div className="social-icon" style={{textAlign: "center"}}>
               <a href="https://linkedin.com/in/tolganaya/" target="_blank"><img src={navIcon1} alt="Icon" /></a>
               <a href="https://github.com/tolganaya/" target="_blank"><img src={navIcon2} alt="Icon" /></a>
-              <a href="https://www.instagram.com/tolganaya_/" target="_blank"><img src={navIcon3} alt="Icon" /></a>
+              {/* <a href="https://www.instagram.com/tolganaya_/" target="_blank"><img src={navIcon3} alt="Icon" /></a> */}
             <p>©Copyright 2022. All Rights Reserved (I hope). Powered by Tolganay.</p>
             </div>
           {/* </Col> */}
