@@ -7,13 +7,13 @@ export const ProjectCard = ({ title, description, imgUrl, siteUrl }) => {
         <div className="proj-txtx">
           <h4>{title}</h4>
           <div className="proj-imgbx">
-            <img src={imgUrl} className="img-wishlist"/>
+            <img src={imgUrl} className="img-wishlist" alt=""/>
           </div>
           <div className="proj-txtx">
             <span>{description}</span>
             <br></br>
             <Button variant="light" style={{ borderRadius: 30 }}>
-              <a href={siteUrl} target="_blank">
+              <a href={siteUrl} target="_blank" rel="noopener noreferrer">
                 Click
               </a>
             </Button>

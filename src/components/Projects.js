@@ -1,20 +1,20 @@
-import { Container, Row, Col, Tab, Nav } from "react-bootstrap";
+import { Container, Row, Col, Tab } from "react-bootstrap";
 import { ProjectCard } from "./ProjectCard";
-import projImg1 from "../assets/img/Best_Star_Projector_for_Room.png";
+// import projImg1 from "../assets/img/Best_Star_Projector_for_Room.png";
 import projImg2 from "../assets/img/IMG_5911.PNG";
 import projImg3 from "../assets/img/IMG_5912.JPG";
 import projImg4 from "../assets/img/IMG_5914.PNG";
 import projImg5 from "../assets/img/IMG_5916.PNG";
 import projImg6 from "../assets/img/sfvc.jpg";
 import projImg7 from "../assets/img/IMG_5920.PNG";
-import projImg8 from "../assets/img/4.jpg";
+// import projImg8 from "../assets/img/4.jpg";
 import projImg9 from "../assets/img/IMG_5921.JPG";
 import projImg10 from "../assets/img/IMG_5924.PNG";
 import projImg11 from "../assets/img/IMG_5925.PNG";
-import projImg12 from "../assets/img/IMG_5927.PNG";
+// import projImg12 from "../assets/img/IMG_5927.PNG";
 import projImg13 from "../assets/img/IMG_5928.PNG";
 import projImg14 from "../assets/img/IMG_5929.PNG";
-import projImg15 from "../assets/img/IMG_5931.PNG";
+// import projImg15 from "../assets/img/IMG_5931.PNG";
 import projImg16 from "../assets/img/IMG_6648.JPG";
 import colorSharp2 from "../assets/img/color-sharp2.png";
 import 'animate.css';
@@ -36,7 +36,7 @@ export const Projects = () => {
       siteUrl: "https://www.flip.kz/catalog?prod=1920587",
     },
     // {
-    //   title: "Star Night Light",
+    //   title: "Sta Night Light",
     //   description: "то, что не хватает к Алисе",
     //   imgUrl: projImg1,
     //   siteUrl: 'https://www.instagram.com/p/CgCT4RIovja/?next=%2F',
@@ -81,7 +81,7 @@ export const Projects = () => {
       title: "Slytherin Scarf",
       description: "шарфик питониста",
       imgUrl: projImg9,
-      siteUrl: 'https://satu.kz/p76836294-sharf-slizerin-garri.html',
+      siteUrl: 'https://kaspi.kz/shop/p/sed-moe-nebo-sharf-slizerin-56765-zelenyi-seryi-103170299/?c=750000000&sr=5&qid=9e52eb024868c9ac74bccb4a4f9744f5&ref=shared_link',
     },
     {
       title: "Winter Eco Shopper",
@@ -113,6 +113,7 @@ export const Projects = () => {
       imgUrl: projImg14,
       siteUrl: 'https://www.instagram.com/p/CSSTpG5r63H/?igshid=YmMyMTA2M2Y=',
     },
+    
     // {
     //   title: "Suitcase",
     //   description: "на будущий отпуск",
@@ -160,7 +161,7 @@ export const Projects = () => {
           </Col>
         </Row>
       </Container>
-      <img className="background-image-right" src={colorSharp2}></img>
+      <img className="background-image-right" src={colorSharp2} alt=""></img>
     </section>
   )
 }
