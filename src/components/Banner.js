@@ -1,6 +1,6 @@
 import { useState, useEffect } from "react";
 import { Container, Row, Col } from "react-bootstrap";
-import headerImg from "../assets/img/header-img.svg";
+import headerImg from "../assets/img/bday.svg";
 import { ArrowRightCircle } from 'react-bootstrap-icons';
 import 'animate.css';
 import TrackVisibility from 'react-on-screen';
@@ -18,12 +18,10 @@ export const Banner = () => {
         <Row className="aligh-items-center">
           <Col xs={12} md={6} xl={7}>
             <TrackVisibility>
-                <h1>{`Tolganay`} 
-                </h1>
-                  <p>welcome to my WishList page:) 
-                    <br></br><br></br>
-                    P.s. <small><small>доработка любительского сайта в следующем релизе</small></small>
-                  </p>
+              <p>
+                <h1>{`TOLGANAY`}</h1><br/>
+                <h4>{`wishlist updates`}</h4><br/>
+              </p>                  
             </TrackVisibility>
           </Col>
           <Col xs={12} md={6} xl={5}>

@@ -1,21 +1,22 @@
 import { Container, Row, Col, Tab } from "react-bootstrap";
 import { ProjectCard } from "./ProjectCard";
-// import projImg1 from "../assets/img/Best_Star_Projector_for_Room.png";
-import projImg2 from "../assets/img/IMG_5911.PNG";
-import projImg3 from "../assets/img/IMG_5912.JPG";
-import projImg4 from "../assets/img/IMG_5914.PNG";
-import projImg5 from "../assets/img/IMG_5916.PNG";
-import projImg6 from "../assets/img/sfvc.jpg";
-import projImg7 from "../assets/img/IMG_5920.PNG";
-// import projImg8 from "../assets/img/4.jpg";
-import projImg9 from "../assets/img/IMG_5921.JPG";
-import projImg10 from "../assets/img/IMG_5924.PNG";
-import projImg11 from "../assets/img/IMG_5925.PNG";
-// import projImg12 from "../assets/img/IMG_5927.PNG";
-import projImg13 from "../assets/img/IMG_5928.PNG";
-import projImg14 from "../assets/img/IMG_5929.PNG";
-// import projImg15 from "../assets/img/IMG_5931.PNG";
-import projImg16 from "../assets/img/IMG_6648.JPG";
+import projImg1 from "../assets/img/IMG_5249.JPG";
+import projImg2 from "../assets/img/IMG_5250.JPG";
+import projImg3 from "../assets/img/IMG_5555.jpg";
+import projImg4 from "../assets/img/IMG_5254.JPG";
+import projImg5 from "../assets/img/IMG_5252.JPG";
+import projImg6 from "../assets/img/IMG_5255.JPG";
+import projImg7 from "../assets/img/IMG_5256.JPG";
+import projImg8 from "../assets/img/IMG_5258.JPG";
+import projImg9 from "../assets/img/IMG_5257.JPG";
+import projImg10 from "../assets/img/IMG_5259.JPG";
+import projImg11 from "../assets/img/IMG_5263.JPG";
+import projImg12 from "../assets/img/IMG_5266.PNG";
+import projImg13 from "../assets/img/IMG_5268.PNG";
+import projImg14 from "../assets/img/IMG_5269.PNG";
+import projImg15 from "../assets/img/IMG_5261.JPG";
+import projImg16 from "../assets/img/IMG_5264.JPG";
+import projImg17 from "../assets/img/IMG_5270.PNG";
 import colorSharp2 from "../assets/img/color-sharp2.png";
 import 'animate.css';
 import TrackVisibility from 'react-on-screen';
@@ -24,102 +25,107 @@ export const Projects = () => {
 
   const projects = [
     {
-      title: "Shashbau",
-      description: "рухани жангыру",
-      imgUrl: projImg5,
-      siteUrl: 'https://www.instagram.com/p/ChUvsR3Kyht/?igshid=YmMyMTA2M2Y=',
+      title: "Зиплайнер",
+      description: "или троллейный парк",
+      imgUrl: projImg1,
+      siteUrl: 'https://oiqaragai.com/ru/entertain',
     },
     {
-      title: "The Lovely Bones",
-      description: "после просмотра фильма, захотелось прочесть книжку",
-      imgUrl: projImg16,
-      siteUrl: "https://www.flip.kz/catalog?prod=1920587",
-    },
-    // {
-    //   title: "Sta Night Light",
-    //   description: "то, что не хватает к Алисе",
-    //   imgUrl: projImg1,
-    //   siteUrl: 'https://www.instagram.com/p/CgCT4RIovja/?next=%2F',
-    // },
-    // {
-    //   title: "Grokking Algorithms",
-    //   description: "алгоритмы в бумаге лучше усваиваются",
-    //   imgUrl: projImg8,
-    //   siteUrl: 'https://www.flip.kz/catalog?prod=814376',
-    // },
-    {
-      title: 'Hoodie "Anbu"',
-      description: "anbu and madara one love",
-      imgUrl: projImg7,
-      siteUrl: 'https://www.instagram.com/p/ChwlnjULQcM/?igshid=YmMyMTA2M2Y=',
-    },
-    {
-      title: "Vintage Corset",
-      description: "невероятно красивый",
-      imgUrl: projImg3,
-      siteUrl: 'https://www.instagram.com/reel/Cho4fRJFSn3/?igshid=YmMyMTA2M2Y=',
-    },
-    {
-      title: "Socks Pack",
-      description: "длинные необычные носочки - моя любовь",
-      imgUrl: projImg11,
-      siteUrl: 'https://www.instagram.com/p/CZeNzlWqUdd/?igshid=YmMyMTA2M2Y=',
-    },
-    {
-      title: "Laptop bag",
-      description: "эстетичная замена рюкзаку",
+      title: "Конная прогулка",
+      description: "",
       imgUrl: projImg2,
-      siteUrl: 'https://www.instagram.com/p/Cf01AsSKdnp/?igshid=YmMyMTA2M2Y=',
+      siteUrl: "https://dream-moments.kz",
     },
     {
-      title: "Fitness Uniform Gift-Certificate",
-      description: "фитоняшка",
-      imgUrl: projImg6,
-      siteUrl: 'https://instagram.com/fitness.body_kz?igshid=YmMyMTA2M2Y=',
+      title: "Стрельба из лука",
+      description: "",
+      imgUrl: projImg3,
+      siteUrl: 'https://dream-moments.kz',
     },
     {
-      title: "Slytherin Scarf",
-      description: "шарфик питониста",
-      imgUrl: projImg9,
-      siteUrl: 'https://kaspi.kz/shop/p/sed-moe-nebo-sharf-slizerin-56765-zelenyi-seryi-103170299/?c=750000000&sr=5&qid=9e52eb024868c9ac74bccb4a4f9744f5&ref=shared_link',
-    },
-    {
-      title: "Winter Eco Shopper",
-      description: "зимняя замена шопперу",
+      title: "Стрельба из ружья",
+      description: "",
       imgUrl: projImg4,
-      siteUrl: 'https://www.instagram.com/p/Ccjw62rNAhn/?igshid=YmMyMTA2M2Y=',
+      siteUrl: 'https://dream-moments.kz',
     },
     {
-      title: "Contact Lens Container",
-      description: "ёжик в тумане",
+      title: "Экскурсия по обсерватории",
+      description: "Плато Ассы",
+      imgUrl: projImg5,
+      siteUrl: 'https://dream-moments.kz',
+    },
+    {
+      title: "МК по эпоксидной смоле",
+      description: "",
+      imgUrl: projImg6,
+      siteUrl: 'https://instagram.com/soulplace.kz?igshid=NGVhN2U2NjQ0Yg==',
+    },
+    {
+      title: "МК по флористике",
+      description: "",
+      imgUrl: projImg7,
+      siteUrl: 'https://instagram.com/almari_flowers?igshid=NGVhN2U2NjQ0Yg==',
+    },
+    {
+      title: "МК по тортикам",
+      description: "оффлайн",
+      imgUrl: projImg8,
+      siteUrl: 'https://instagram.com/aizat_cakes?igshid=NGVhN2U2NjQ0Yg==',
+    },
+    {
+      title: "МК из гипса",
+      description: "",
+      imgUrl: projImg9,
+      siteUrl: 'https://instagram.com/la_terre_studio?igshid=NGVhN2U2NjQ0Yg==',
+    },
+    {
+      title: "МК по ароматам",
+      description: "",
       imgUrl: projImg10,
-      siteUrl: 'https://satu.kz/p87800729-dorozhnyj-nabor-dlya.html?adjust_campaign=share&adjust_adgroup=ios&adjust_creative=product&utm_campaign=share_button&utm_medium=referral_link&utm_source=b2c_app_ios',
+      siteUrl: 'https://instagram.com/aromavision.kz?igshid=NGVhN2U2NjQ0Yg==',
     },
-    // {
-    //   title: "Necklace",
-    //   description: "кей кезде кыз болайын",
-    //   imgUrl: projImg12,
-    //   siteUrl: 'https://www.instagram.com/p/CKJ2N6aD5l5/?igshid=YmMyMTA2M2Y=',
-    // }, 
     {
-      title: "Home Flowers",
-      description: "живые цветы - мой любимые",
+      title: "Сертификат ЗЯ",
+      description: "золотое яблоко",
+      imgUrl: projImg11,
+      siteUrl: 'https://goldapple.kz/',
+    },
+    {
+      title: "Сертиф Cosmoskin",
+      description: "бронепленка",
+      imgUrl: projImg12,
+      siteUrl: 'https://instagram.com/cosmoskins?igshid=NGVhN2U2NjQ0Yg==',
+    },
+    {
+      title: "Сертиф On Jeti",
+      description: "қазақша әшекейлер",
       imgUrl: projImg13,
-      siteUrl: 'https://www.instagram.com/p/CkSnT5_NQgd/?igshid=YmMyMTA2M2Y=',
+      siteUrl: 'https://instagram.com/on7.17?igshid=NGVhN2U2NjQ0Yg==',
     },
     {
-      title: "Pepper Spray",
-      description: "пусть не понадобится",
+      title: "Сертиф Inoya",
+      description: "",
       imgUrl: projImg14,
-      siteUrl: 'https://www.instagram.com/p/CSSTpG5r63H/?igshid=YmMyMTA2M2Y=',
+      siteUrl: 'https://instagram.com/inoya_brand?igshid=NGVhN2U2NjQ0Yg==',
     },
-    
-    // {
-    //   title: "Suitcase",
-    //   description: "на будущий отпуск",
-    //   imgUrl: projImg15,
-    //   siteUrl: 'https://www.instagram.com/p/CVzUd3zK5if/?igshid=YmMyMTA2M2Y=',
-    // }, 
+    {
+      title: "Сертиф Intertop",
+      description: "",
+      imgUrl: projImg15,
+      siteUrl: 'https://intertop.kz/ru-kz/shopping/catalog/women/',
+    }, 
+    {
+      title: "Сертиф Decathlon",
+      description: "",
+      imgUrl: projImg16,
+      siteUrl: 'https://www.decathlonkz.com',
+    }, 
+    {
+      title: "Сертиф QR",
+      description: "",
+      imgUrl: projImg17,
+      siteUrl: 'hhttps://instagram.com/qazaq.republic?igshid=NGVhN2U2NjQ0Yg==',
+    }, 
   ];
 
   return (
